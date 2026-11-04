@@ -1,0 +1,119 @@
+<template>
+  <!-- 3D cutaway template: toon bone hero, one "reveal" camera move, sticker label on a spoken word.
+       three r149 (classic build, global THREE) is loaded by the script tag below - keep it in each 3D scene file.
+       Rename the ids (s3d-*) and the composition id per scene. -->
+  <style>
+    @font-face { font-family: "Kanit"; font-weight: 800; src: url("assets/fonts/kanit-thai-800.woff2") format("woff2"); unicode-range: U+0E00-0E7F; }
+    @font-face { font-family: "Kanit"; font-weight: 800; src: url("assets/fonts/kanit-latin-800.woff2") format("woff2"); }
+    #root { position: absolute; inset: 0; font-family: "Kanit"; color: #1b1b3a; }
+    #s3d-stage { position: absolute; inset: 0; }
+    #s3d-inner {
+      position: absolute; inset: 0;
+      background-color: #ece6ff;
+      background-image: radial-gradient(#d9cffa 6px, transparent 7px);
+      background-size: 54px 54px;
+    }
+    #s3d-canvas { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; }
+    .s3d-sticker {
+      position: absolute; background: #fff; border: 6px solid #1b1b3a; border-radius: 28px;
+      box-shadow: 10px 10px 0 #1b1b3a; padding: 8px 32px; font-size: 70px; font-weight: 800; white-space: nowrap;
+    }
+    #s3d-l1 { left: 300px; top: 230px; background: #ffd34d; }
+  </style>
+  <div id="root" data-composition-id="scene3d" data-width="1080" data-height="1920">
+    <div id="s3d-stage" class="clip" data-start="0" data-duration="5">
+      <div id="s3d-inner">
+        <canvas id="s3d-canvas" width="1080" height="1920"></canvas>
+        <div id="s3d-l1" class="s3d-sticker">กระดูก</div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.149.0/build/three.min.js"></script>
+  <script>
+    (function () {
+      const DUR = 5;
+      const INK = 0x1b1b3a;
+      const canvas = document.getElementById("s3d-canvas");
+      const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true, preserveDrawingBuffer: true });
+      renderer.setPixelRatio(1);
+      renderer.setSize(1080, 1920, false);
+      renderer.setClearColor(0x000000, 0);
+
+      const scene = new THREE.Scene();
+      const camera = new THREE.PerspectiveCamera(34, 1080 / 1920, 0.1, 100);
+
+      // 3-step toon ramp
+      const ramp = new THREE.DataTexture(new Uint8Array([120, 120, 120, 255, 200, 200, 200, 255, 255, 255, 255, 255]), 3, 1);
+      ramp.minFilter = ramp.magFilter = THREE.NearestFilter;
+      ramp.needsUpdate = true;
+      const toon = (c) => new THREE.MeshToonMaterial({ color: c, gradientMap: ramp });
+      const hullMat = new THREE.MeshBasicMaterial({ color: INK, side: THREE.BackSide });
+
+      // add a mesh plus its ink outline hull as a child
+      function inked(geo, color, parent, hull = 1.05) {
+        const m = new THREE.Mesh(geo, toon(color));
+        const h = new THREE.Mesh(geo, hullMat);
+        h.scale.setScalar(hull);
+        m.add(h);
+        parent.add(m);
+        return m;
+      }
+
+      // hero: a cartoon bone built from primitives
+      const hero = new THREE.Group();
+      scene.add(hero);
+      const shaft = inked(new THREE.CylinderGeometry(0.32, 0.32, 2.4, 40), 0xfff1d6, hero, 1.06);
+      shaft.rotation.z = Math.PI / 2;
+      [[-1.25, 0.32], [-1.25, -0.32], [1.25, 0.32], [1.25, -0.32]].forEach(([x, y]) => {
+        const k = inked(new THREE.SphereGeometry(0.48, 40, 24), 0xfff1d6, hero, 1.06);
+        k.position.set(x, y, 0);
+      });
+
+      // contact shadow: radial gradient on a flat plane
+      const sc = document.createElement("canvas");
+      sc.width = sc.height = 128;
+      const g = sc.getContext("2d");
+      const grd = g.createRadialGradient(64, 64, 4, 64, 64, 64);
+      grd.addColorStop(0, "rgba(27,27,58,0.35)");
+      grd.addColorStop(1, "rgba(27,27,58,0)");
+      g.fillStyle = grd;
+      g.fillRect(0, 0, 128, 128);
+      const shadow = new THREE.Mesh(new THREE.PlaneGeometry(4.2, 1.4), new THREE.MeshBasicMaterial({ map: new THREE.CanvasTexture(sc), transparent: true, depthWrite: false }));
+      shadow.rotation.x = -Math.PI / 2;
+      shadow.position.y = -1.1;
+      scene.add(shadow);
+
+      const key = new THREE.DirectionalLight(0xfff1dc, 1.1);
+      key.position.set(-3, 4, 5);
+      scene.add(key);
+      scene.add(new THREE.AmbientLight(0xe8e6ff, 0.55));
+
+      const ease = (x) => (x < 0.5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2);
+      const clamp01 = (x) => Math.min(1, Math.max(0, x));
+
+      // pure function of scene time: "reveal" = slow 30° arc + dolly in, hold the last 0.3 s
+      function renderAt(t) {
+        const p = ease(clamp01(t / (DUR - 0.3)));
+        const ang = (-15 + 30 * p) * (Math.PI / 180);
+        const dist = 17 - 3 * p; // hero ≈ 55-65 % of frame width
+        camera.position.set(Math.sin(ang) * dist, 2.4 + 0.8 * p, Math.cos(ang) * dist);
+        camera.lookAt(0, -0.1, 0);
+        const pop = clamp01(t / 0.45);
+        hero.scale.setScalar(0.6 + 0.4 * (1 - Math.pow(1 - pop, 3)) + (pop >= 1 ? 0 : 0.06 * Math.sin(pop * Math.PI)));
+        hero.rotation.y = 0.35 * p;
+        hero.position.y = 0.08 * Math.sin(t * 2.4);
+        renderer.render(scene, camera);
+      }
+
+      // drive the canvas from the scene's own timeline so it stays in sync inside the root
+      const tl = gsap.timeline({ paused: true });
+      const clock = { t: 0 };
+      tl.fromTo(clock, { t: 0 }, { t: DUR, duration: DUR, ease: "none", onUpdate: () => renderAt(clock.t) }, 0);
+      tl.fromTo("#s3d-inner", { clipPath: "circle(0% at 50% 40%)" }, { clipPath: "circle(120% at 50% 40%)", duration: 0.3, ease: "power2.out" }, 0);
+      tl.fromTo("#s3d-l1", { opacity: 0, scale: 0.6, rotation: -8 }, { opacity: 1, scale: 1, rotation: -3, duration: 0.3, ease: "back.out(1.7)" }, 1.0);
+      tl.to("#s3d-inner", { opacity: 0, duration: 0.22, ease: "power2.in" }, DUR - 0.22);
+      renderAt(0);
+      window.__timelines["scene3d"] = tl;
+    })();
+  </script>
+</template>

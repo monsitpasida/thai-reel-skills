@@ -1,0 +1,1642 @@
+{
+  "language": "th",
+  "timeline": "rough-cut",
+  "timing": "v3 CTC forced alignment (airesearch/wav2vec2-large-xlsr-53-th)",
+  "items": [
+    {
+      "start_s": 0.0,
+      "speech_end_s": 2.04,
+      "text": "เรายอมลงทุนกับสกินแคร์",
+      "lines": [
+        "เรายอมลงทุนกับสกินแคร์"
+      ],
+      "align_score": 0.954,
+      "words": [
+        {
+          "text": "เรา",
+          "start_s": 0.1,
+          "end_s": 0.32,
+          "spoken_end_s": 0.18
+        },
+        {
+          "text": "ยอม",
+          "start_s": 0.32,
+          "end_s": 0.54,
+          "spoken_end_s": 0.44
+        },
+        {
+          "text": "ลงทุน",
+          "start_s": 0.54,
+          "end_s": 1.32,
+          "spoken_end_s": 0.84
+        },
+        {
+          "text": "กับ",
+          "start_s": 1.32,
+          "end_s": 1.52,
+          "spoken_end_s": 1.42
+        },
+        {
+          "text": "สกิน",
+          "start_s": 1.52,
+          "end_s": 1.86,
+          "spoken_end_s": 1.76
+        },
+        {
+          "text": "แคร์",
+          "start_s": 1.86,
+          "end_s": 2.04,
+          "spoken_end_s": 2.04
+        }
+      ],
+      "highlights": [
+        {
+          "text": "สกินแคร์",
+          "type": "keyword"
+        }
+      ],
+      "end_s": 2.06
+    },
+    {
+      "start_s": 2.06,
+      "speech_end_s": 2.58,
+      "text": "เป็นพันๆ",
+      "lines": [
+        "เป็นพันๆ"
+      ],
+      "align_score": 0.843,
+      "words": [
+        {
+          "text": "เป็น",
+          "start_s": 2.1,
+          "end_s": 2.26,
+          "spoken_end_s": 2.18
+        },
+        {
+          "text": "พันๆ",
+          "start_s": 2.26,
+          "end_s": 2.58,
+          "spoken_end_s": 2.58
+        }
+      ],
+      "highlights": [
+        {
+          "text": "พันๆ",
+          "type": "keyword"
+        }
+      ],
+      "end_s": 2.74
+    },
+    {
+      "start_s": 2.74,
+      "speech_end_s": 4.24,
+      "text": "เพื่อดูแลผิวที่เรามองไม่เห็น",
+      "lines": [
+        "เพื่อดูแลผิวที่เรามองไม่เห็น"
+      ],
+      "align_score": 0.973,
+      "words": [
+        {
+          "text": "เพื่อ",
+          "start_s": 2.78,
+          "end_s": 3.0,
+          "spoken_end_s": 2.92
+        },
+        {
+          "text": "ดูแล",
+          "start_s": 3.0,
+          "end_s": 3.36,
+          "spoken_end_s": 3.18
+        },
+        {
+          "text": "ผิว",
+          "start_s": 3.36,
+          "end_s": 3.54,
+          "spoken_end_s": 3.46
+        },
+        {
+          "text": "ที่เรา",
+          "start_s": 3.54,
+          "end_s": 3.82,
+          "spoken_end_s": 3.72
+        },
+        {
+          "text": "มองไม่เห็น",
+          "start_s": 3.82,
+          "end_s": 4.24,
+          "spoken_end_s": 4.24
+        }
+      ],
+      "highlights": [
+        {
+          "text": "ผิว",
+          "type": "keyword"
+        }
+      ],
+      "end_s": 4.54
+    },
+    {
+      "start_s": 4.781,
+      "speech_end_s": 5.701,
+      "text": "แต่ทุกคนรู้ไหมคะ",
+      "lines": [
+        "แต่ทุกคนรู้ไหมคะ"
+      ],
+      "align_score": 0.982,
+      "words": [
+        {
+          "text": "แต่",
+          "start_s": 4.821,
+          "end_s": 5.001,
+          "spoken_end_s": 4.901
+        },
+        {
+          "text": "ทุกคน",
+          "start_s": 5.001,
+          "end_s": 5.301,
+          "spoken_end_s": 5.221
+        },
+        {
+          "text": "รู้ไหมคะ",
+          "start_s": 5.301,
+          "end_s": 5.701,
+          "spoken_end_s": 5.701
+        }
+      ],
+      "highlights": [],
+      "end_s": 6.001
+    },
+    {
+      "start_s": 6.021,
+      "speech_end_s": 7.081,
+      "text": "กระดูกที่เรามองไม่เห็น",
+      "lines": [
+        "กระดูกที่เรามองไม่เห็น"
+      ],
+      "align_score": 0.995,
+      "words": [
+        {
+          "text": "กระดูก",
+          "start_s": 6.061,
+          "end_s": 6.381,
+          "spoken_end_s": 6.321
+        },
+        {
+          "text": "ที่เรา",
+          "start_s": 6.381,
+          "end_s": 6.681,
+          "spoken_end_s": 6.581
+        },
+        {
+          "text": "มองไม่เห็น",
+          "start_s": 6.681,
+          "end_s": 7.081,
+          "spoken_end_s": 7.081
+        }
+      ],
+      "highlights": [
+        {
+          "text": "กระดูก",
+          "type": "keyword"
+        }
+      ],
+      "end_s": 7.181
+    },
+    {
+      "start_s": 7.181,
+      "speech_end_s": 8.441,
+      "text": "ก็ต้องการการดูแลเหมือนกัน",
+      "lines": [
+        "ก็ต้องการการดูแลเหมือนกัน"
+      ],
+      "align_score": 0.965,
+      "words": [
+        {
+          "text": "ก็ต้องการ",
+          "start_s": 7.221,
+          "end_s": 7.721,
+          "spoken_end_s": 7.621
+        },
+        {
+          "text": "การ",
+          "start_s": 7.721,
+          "end_s": 7.881,
+          "spoken_end_s": 7.801
+        },
+        {
+          "text": "ดูแล",
+          "start_s": 7.881,
+          "end_s": 8.081,
+          "spoken_end_s": 8.021
+        },
+        {
+          "text": "เหมือนกัน",
+          "start_s": 8.081,
+          "end_s": 8.441,
+          "spoken_end_s": 8.441
+        }
+      ],
+      "highlights": [
+        {
+          "text": "การดูแล",
+          "type": "keyword"
+        }
+      ],
+      "end_s": 8.741
+    },
+    {
+      "start_s": 8.741,
+      "speech_end_s": 9.681,
+      "text": "แล้วทุกคนรู้ไหมคะ",
+      "lines": [
+        "แล้วทุกคนรู้ไหมคะ"
+      ],
+      "align_score": 0.982,
+      "words": [
+        {
+          "text": "แล้ว",
+          "start_s": 8.781,
+          "end_s": 8.981,
+          "spoken_end_s": 8.901
+        },
+        {
+          "text": "ทุกคน",
+          "start_s": 8.981,
+          "end_s": 9.281,
+          "spoken_end_s": 9.201
+        },
+        {
+          "text": "รู้ไหมคะ",
+          "start_s": 9.281,
+          "end_s": 9.681,
+          "spoken_end_s": 9.681
+        }
+      ],
+      "highlights": [],
+      "end_s": 9.921
+    },
+    {
+      "start_s": 9.921,
+      "speech_end_s": 10.821,
+      "text": "การดูแลกระดูก",
+      "lines": [
+        "การดูแลกระดูก"
+      ],
+      "align_score": 0.974,
+      "words": [
+        {
+          "text": "การ",
+          "start_s": 9.961,
+          "end_s": 10.201,
+          "spoken_end_s": 10.101
+        },
+        {
+          "text": "ดูแล",
+          "start_s": 10.201,
+          "end_s": 10.521,
+          "spoken_end_s": 10.381
+        },
+        {
+          "text": "กระดูก",
+          "start_s": 10.521,
+          "end_s": 10.821,
+          "spoken_end_s": 10.821
+        }
+      ],
+      "highlights": [
+        {
+          "text": "กระดูก",
+          "type": "keyword"
+        }
+      ],
+      "end_s": 10.921
+    },
+    {
+      "start_s": 10.921,
+      "speech_end_s": 12.361,
+      "text": "ไม่ใช่แค่เรื่องแคลเซียมด้วยนะ",
+      "lines": [
+        "ไม่ใช่แค่เรื่องแคลเซียมด้วยนะ"
+      ],
+      "align_score": 0.965,
+      "words": [
+        {
+          "text": "ไม่",
+          "start_s": 10.961,
+          "end_s": 11.141,
+          "spoken_end_s": 11.041
+        },
+        {
+          "text": "ใช่",
+          "start_s": 11.141,
+          "end_s": 11.361,
+          "spoken_end_s": 11.221
+        },
+        {
+          "text": "แค่เรื่อง",
+          "start_s": 11.361,
+          "end_s": 11.701,
+          "spoken_end_s": 11.641
+        },
+        {
+          "text": "แคลเซียม",
+          "start_s": 11.701,
+          "end_s": 12.141,
+          "spoken_end_s": 12.061
+        },
+        {
+          "text": "ด้วยนะ",
+          "start_s": 12.141,
+          "end_s": 12.361,
+          "spoken_end_s": 12.361
+        }
+      ],
+      "highlights": [
+        {
+          "text": "แคลเซียม",
+          "type": "keyword"
+        }
+      ],
+      "end_s": 12.641
+    },
+    {
+      "start_s": 12.641,
+      "speech_end_s": 13.562,
+      "text": "เพราะร่างกายของเรา",
+      "lines": [
+        "เพราะร่างกายของเรา"
+      ],
+      "align_score": 0.968,
+      "words": [
+        {
+          "text": "เพราะ",
+          "start_s": 12.681,
+          "end_s": 12.921,
+          "spoken_end_s": 12.841
+        },
+        {
+          "text": "ร่างกาย",
+          "start_s": 12.921,
+          "end_s": 13.342,
+          "spoken_end_s": 13.221
+        },
+        {
+          "text": "ของเรา",
+          "start_s": 13.342,
+          "end_s": 13.562,
+          "spoken_end_s": 13.562
+        }
+      ],
+      "highlights": [],
+      "end_s": 13.702
+    },
+    {
+      "start_s": 13.702,
+      "speech_end_s": 15.102,
+      "text": "ต้องการสารอาหารหลายตัว",
+      "lines": [
+        "ต้องการสารอาหารหลายตัว"
+      ],
+      "align_score": 0.98,
+      "words": [
+        {
+          "text": "ต้องการ",
+          "start_s": 13.742,
+          "end_s": 14.202,
+          "spoken_end_s": 14.082
+        },
+        {
+          "text": "สารอาหาร",
+          "start_s": 14.202,
+          "end_s": 14.722,
+          "spoken_end_s": 14.622
+        },
+        {
+          "text": "หลายตัว",
+          "start_s": 14.722,
+          "end_s": 15.102,
+          "spoken_end_s": 15.102
+        }
+      ],
+      "highlights": [
+        {
+          "text": "หลายตัว",
+          "type": "keyword"
+        }
+      ],
+      "end_s": 15.202
+    },
+    {
+      "start_s": 15.202,
+      "speech_end_s": 16.202,
+      "text": "เพื่อทำงานร่วมกัน",
+      "lines": [
+        "เพื่อทำงานร่วมกัน"
+      ],
+      "align_score": 0.94,
+      "words": [
+        {
+          "text": "เพื่อ",
+          "start_s": 15.242,
+          "end_s": 15.502,
+          "spoken_end_s": 15.402
+        },
+        {
+          "text": "ทำงาน",
+          "start_s": 15.502,
+          "end_s": 15.882,
+          "spoken_end_s": 15.782
+        },
+        {
+          "text": "ร่วมกัน",
+          "start_s": 15.882,
+          "end_s": 16.202,
+          "spoken_end_s": 16.202
+        }
+      ],
+      "highlights": [
+        {
+          "text": "ร่วมกัน",
+          "type": "keyword"
+        }
+      ],
+      "end_s": 16.322
+    },
+    {
+      "start_s": 16.322,
+      "speech_end_s": 17.122,
+      "text": "อย่างวิตามินดี",
+      "lines": [
+        "อย่างวิตามินดี"
+      ],
+      "align_score": 0.999,
+      "words": [
+        {
+          "text": "อย่าง",
+          "start_s": 16.362,
+          "end_s": 16.582,
+          "spoken_end_s": 16.502
+        },
+        {
+          "text": "วิตามินดี",
+          "start_s": 16.582,
+          "end_s": 17.122,
+          "spoken_end_s": 17.122
+        }
+      ],
+      "highlights": [
+        {
+          "text": "วิตามินดี",
+          "type": "keyword"
+        }
+      ],
+      "end_s": 17.422
+    },
+    {
+      "start_s": 17.442,
+      "speech_end_s": 19.002,
+      "text": "ก็ช่วยในการดูดซึมแคลเซียม",
+      "lines": [
+        "ก็ช่วยในการดูดซึมแคลเซียม"
+      ],
+      "align_score": 0.969,
+      "words": [
+        {
+          "text": "ก็",
+          "start_s": 17.482,
+          "end_s": 17.662,
+          "spoken_end_s": 17.542
+        },
+        {
+          "text": "ช่วย",
+          "start_s": 17.662,
+          "end_s": 17.882,
+          "spoken_end_s": 17.782
+        },
+        {
+          "text": "ใน",
+          "start_s": 17.882,
+          "end_s": 18.042,
+          "spoken_end_s": 17.942
+        },
+        {
+          "text": "การ",
+          "start_s": 18.042,
+          "end_s": 18.222,
+          "spoken_end_s": 18.142
+        },
+        {
+          "text": "ดูดซึม",
+          "start_s": 18.222,
+          "end_s": 18.582,
+          "spoken_end_s": 18.482
+        },
+        {
+          "text": "แคลเซียม",
+          "start_s": 18.582,
+          "end_s": 19.002,
+          "spoken_end_s": 19.002
+        }
+      ],
+      "highlights": [
+        {
+          "text": "ดูดซึม",
+          "type": "keyword"
+        }
+      ],
+      "end_s": 19.302
+    },
+    {
+      "start_s": 19.442,
+      "speech_end_s": 20.182,
+      "text": "ส่วนวิตามินเค",
+      "lines": [
+        "ส่วนวิตามินเค"
+      ],
+      "align_score": 0.966,
+      "words": [
+        {
+          "text": "ส่วน",
+          "start_s": 19.482,
+          "end_s": 19.682,
+          "spoken_end_s": 19.602
+        },
+        {
+          "text": "วิตามินเค",
+          "start_s": 19.682,
+          "end_s": 20.182,
+          "spoken_end_s": 20.182
+        }
+      ],
+      "highlights": [
+        {
+          "text": "วิตามินเค",
+          "type": "keyword"
+        }
+      ],
+      "end_s": 20.482
+    },
+    {
+      "start_s": 20.522,
+      "speech_end_s": 21.962,
+      "text": "ก็มีส่วนช่วยในกระบวนการ",
+      "lines": [
+        "ก็มีส่วนช่วยในกระบวนการ"
+      ],
+      "align_score": 0.985,
+      "words": [
+        {
+          "text": "ก็",
+          "start_s": 20.562,
+          "end_s": 20.742,
+          "spoken_end_s": 20.622
+        },
+        {
+          "text": "มีส่วนช่วย",
+          "start_s": 20.742,
+          "end_s": 21.342,
+          "spoken_end_s": 21.262
+        },
+        {
+          "text": "ในกระบวนการ",
+          "start_s": 21.342,
+          "end_s": 21.962,
+          "spoken_end_s": 21.962
+        }
+      ],
+      "highlights": [],
+      "end_s": 22.043
+    },
+    {
+      "start_s": 22.043,
+      "speech_end_s": 23.283,
+      "text": "ทำงานของโปรตีนในกระดูก",
+      "lines": [
+        "ทำงานของโปรตีนในกระดูก"
+      ],
+      "align_score": 0.911,
+      "words": [
+        {
+          "text": "ทำงาน",
+          "start_s": 22.083,
+          "end_s": 22.483,
+          "spoken_end_s": 22.343
+        },
+        {
+          "text": "ของโปรตีน",
+          "start_s": 22.483,
+          "end_s": 22.963,
+          "spoken_end_s": 22.903
+        },
+        {
+          "text": "ในกระดูก",
+          "start_s": 22.963,
+          "end_s": 23.283,
+          "spoken_end_s": 23.283
+        }
+      ],
+      "highlights": [
+        {
+          "text": "โปรตีน",
+          "type": "keyword"
+        }
+      ],
+      "end_s": 23.263
+    },
+    {
+      "start_s": 23.263,
+      "speech_end_s": 23.643,
+      "text": "เหมือนกัน",
+      "lines": [
+        "เหมือนกัน"
+      ],
+      "align_score": 0.933,
+      "words": [
+        {
+          "text": "เหมือนกัน",
+          "start_s": 23.303,
+          "end_s": 23.643,
+          "spoken_end_s": 23.643
+        }
+      ],
+      "highlights": [],
+      "end_s": 23.943
+    },
+    {
+      "start_s": 24.003,
+      "speech_end_s": 25.463,
+      "text": "ถ้าเป็นแคลเซียม แมกนีเซียม",
+      "lines": [
+        "ถ้าเป็นแคลเซียม แมกนีเซียม"
+      ],
+      "align_score": 0.916,
+      "words": [
+        {
+          "text": "ถ้า",
+          "start_s": 24.043,
+          "end_s": 24.223,
+          "spoken_end_s": 24.143
+        },
+        {
+          "text": "เป็น",
+          "start_s": 24.223,
+          "end_s": 24.443,
+          "spoken_end_s": 24.323
+        },
+        {
+          "text": "แคลเซียม",
+          "start_s": 24.443,
+          "end_s": 24.943,
+          "spoken_end_s": 24.823
+        },
+        {
+          "text": "แมกนีเซียม",
+          "start_s": 24.943,
+          "end_s": 25.463,
+          "spoken_end_s": 25.463
+        }
+      ],
+      "highlights": [
+        {
+          "text": "แคลเซียม",
+          "type": "keyword"
+        },
+        {
+          "text": "แมกนีเซียม",
+          "type": "keyword"
+        }
+      ],
+      "end_s": 25.563
+    },
+    {
+      "start_s": 25.563,
+      "speech_end_s": 26.383,
+      "text": "และวิตามินดี",
+      "lines": [
+        "และวิตามินดี"
+      ],
+      "align_score": 0.993,
+      "words": [
+        {
+          "text": "และ",
+          "start_s": 25.603,
+          "end_s": 25.803,
+          "spoken_end_s": 25.683
+        },
+        {
+          "text": "วิตามินดี",
+          "start_s": 25.803,
+          "end_s": 26.383,
+          "spoken_end_s": 26.383
+        }
+      ],
+      "highlights": [
+        {
+          "text": "วิตามินดี",
+          "type": "keyword"
+        }
+      ],
+      "end_s": 26.683
+    },
+    {
+      "start_s": 27.063,
+      "speech_end_s": 28.143,
+      "text": "ก็เป็นอีกกลุ่มนึงนะคะ",
+      "lines": [
+        "ก็เป็นอีกกลุ่มนึงนะคะ"
+      ],
+      "align_score": 0.994,
+      "words": [
+        {
+          "text": "ก็เป็น",
+          "start_s": 27.103,
+          "end_s": 27.403,
+          "spoken_end_s": 27.343
+        },
+        {
+          "text": "อีก",
+          "start_s": 27.403,
+          "end_s": 27.563,
+          "spoken_end_s": 27.483
+        },
+        {
+          "text": "กลุ่ม",
+          "start_s": 27.563,
+          "end_s": 27.783,
+          "spoken_end_s": 27.683
+        },
+        {
+          "text": "นึง",
+          "start_s": 27.783,
+          "end_s": 27.963,
+          "spoken_end_s": 27.883
+        },
+        {
+          "text": "นะคะ",
+          "start_s": 27.963,
+          "end_s": 28.143,
+          "spoken_end_s": 28.143
+        }
+      ],
+      "highlights": [],
+      "end_s": 28.323
+    },
+    {
+      "start_s": 28.323,
+      "speech_end_s": 29.463,
+      "text": "ที่ช่วยเติมสารอาหาร",
+      "lines": [
+        "ที่ช่วยเติมสารอาหาร"
+      ],
+      "align_score": 0.986,
+      "words": [
+        {
+          "text": "ที่",
+          "start_s": 28.363,
+          "end_s": 28.563,
+          "spoken_end_s": 28.443
+        },
+        {
+          "text": "ช่วย",
+          "start_s": 28.563,
+          "end_s": 28.783,
+          "spoken_end_s": 28.683
+        },
+        {
+          "text": "เติม",
+          "start_s": 28.783,
+          "end_s": 29.023,
+          "spoken_end_s": 28.923
+        },
+        {
+          "text": "สารอาหาร",
+          "start_s": 29.023,
+          "end_s": 29.463,
+          "spoken_end_s": 29.463
+        }
+      ],
+      "highlights": [],
+      "end_s": 29.523
+    },
+    {
+      "start_s": 29.523,
+      "speech_end_s": 30.223,
+      "text": "ให้กับกระดูก",
+      "lines": [
+        "ให้กับกระดูก"
+      ],
+      "align_score": 0.941,
+      "words": [
+        {
+          "text": "ให้",
+          "start_s": 29.563,
+          "end_s": 29.723,
+          "spoken_end_s": 29.643
+        },
+        {
+          "text": "กับ",
+          "start_s": 29.723,
+          "end_s": 29.903,
+          "spoken_end_s": 29.823
+        },
+        {
+          "text": "กระดูก",
+          "start_s": 29.903,
+          "end_s": 30.223,
+          "spoken_end_s": 30.223
+        }
+      ],
+      "highlights": [
+        {
+          "text": "กระดูก",
+          "type": "keyword"
+        }
+      ],
+      "end_s": 30.503
+    },
+    {
+      "start_s": 30.503,
+      "speech_end_s": 32.004,
+      "text": "และการทำงานของกล้ามเนื้อด้วย",
+      "lines": [
+        "และการทำงานของกล้ามเนื้อด้วย"
+      ],
+      "align_score": 0.909,
+      "words": [
+        {
+          "text": "และ",
+          "start_s": 30.543,
+          "end_s": 30.723,
+          "spoken_end_s": 30.623
+        },
+        {
+          "text": "การทำงาน",
+          "start_s": 30.723,
+          "end_s": 31.284,
+          "spoken_end_s": 31.164
+        },
+        {
+          "text": "ของ",
+          "start_s": 31.284,
+          "end_s": 31.464,
+          "spoken_end_s": 31.364
+        },
+        {
+          "text": "กล้ามเนื้อด้วย",
+          "start_s": 31.464,
+          "end_s": 32.004,
+          "spoken_end_s": 32.004
+        }
+      ],
+      "highlights": [
+        {
+          "text": "กล้ามเนื้อ",
+          "type": "keyword"
+        }
+      ],
+      "end_s": 32.304
+    },
+    {
+      "start_s": 32.364,
+      "speech_end_s": 33.844,
+      "text": "ส่วนสารสกัดจากทับทิม",
+      "lines": [
+        "ส่วนสารสกัดจากทับทิม"
+      ],
+      "align_score": 0.871,
+      "words": [
+        {
+          "text": "ส่วน",
+          "start_s": 32.404,
+          "end_s": 32.624,
+          "spoken_end_s": 32.524
+        },
+        {
+          "text": "สาร",
+          "start_s": 32.624,
+          "end_s": 32.824,
+          "spoken_end_s": 32.744
+        },
+        {
+          "text": "สกัด",
+          "start_s": 32.824,
+          "end_s": 33.224,
+          "spoken_end_s": 33.064
+        },
+        {
+          "text": "จาก",
+          "start_s": 33.224,
+          "end_s": 33.524,
+          "spoken_end_s": 33.364
+        },
+        {
+          "text": "ทับทิม",
+          "start_s": 33.524,
+          "end_s": 33.844,
+          "spoken_end_s": 33.844
+        }
+      ],
+      "highlights": [
+        {
+          "text": "ทับทิม",
+          "type": "keyword"
+        }
+      ],
+      "end_s": 33.884
+    },
+    {
+      "start_s": 33.884,
+      "speech_end_s": 34.804,
+      "text": "แล้วก็เมล็ดองุ่น",
+      "lines": [
+        "แล้วก็เมล็ดองุ่น"
+      ],
+      "align_score": 0.985,
+      "words": [
+        {
+          "text": "แล้วก็",
+          "start_s": 33.924,
+          "end_s": 34.244,
+          "spoken_end_s": 34.144
+        },
+        {
+          "text": "เมล็ด",
+          "start_s": 34.244,
+          "end_s": 34.544,
+          "spoken_end_s": 34.444
+        },
+        {
+          "text": "องุ่น",
+          "start_s": 34.544,
+          "end_s": 34.804,
+          "spoken_end_s": 34.804
+        }
+      ],
+      "highlights": [
+        {
+          "text": "เมล็ดองุ่น",
+          "type": "keyword"
+        }
+      ],
+      "end_s": 35.104
+    },
+    {
+      "start_s": 35.164,
+      "speech_end_s": 36.764,
+      "text": "ตัวเนี้ยจะเป็นอีกแนวนึงเลยค่ะ",
+      "lines": [
+        "ตัวเนี้ยจะเป็นอีกแนวนึงเลยค่ะ"
+      ],
+      "align_score": 0.904,
+      "words": [
+        {
+          "text": "ตัวเนี้ย",
+          "start_s": 35.204,
+          "end_s": 35.604,
+          "spoken_end_s": 35.444
+        },
+        {
+          "text": "จะเป็น",
+          "start_s": 35.604,
+          "end_s": 35.904,
+          "spoken_end_s": 35.824
+        },
+        {
+          "text": "อีก",
+          "start_s": 35.904,
+          "end_s": 36.084,
+          "spoken_end_s": 36.004
+        },
+        {
+          "text": "แนว",
+          "start_s": 36.084,
+          "end_s": 36.304,
+          "spoken_end_s": 36.204
+        },
+        {
+          "text": "นึง",
+          "start_s": 36.304,
+          "end_s": 36.484,
+          "spoken_end_s": 36.404
+        },
+        {
+          "text": "เลยค่ะ",
+          "start_s": 36.484,
+          "end_s": 36.764,
+          "spoken_end_s": 36.764
+        }
+      ],
+      "highlights": [],
+      "end_s": 36.944
+    },
+    {
+      "start_s": 36.944,
+      "speech_end_s": 38.624,
+      "text": "ก็จะเน้นไปทางพฤกษเคมี",
+      "lines": [
+        "ก็จะเน้นไปทางพฤกษเคมี"
+      ],
+      "align_score": 0.944,
+      "words": [
+        {
+          "text": "ก็จะ",
+          "start_s": 36.984,
+          "end_s": 37.244,
+          "spoken_end_s": 37.164
+        },
+        {
+          "text": "เน้น",
+          "start_s": 37.244,
+          "end_s": 37.444,
+          "spoken_end_s": 37.364
+        },
+        {
+          "text": "ไป",
+          "start_s": 37.444,
+          "end_s": 37.604,
+          "spoken_end_s": 37.484
+        },
+        {
+          "text": "ทาง",
+          "start_s": 37.604,
+          "end_s": 37.824,
+          "spoken_end_s": 37.724
+        },
+        {
+          "text": "พฤกษ",
+          "start_s": 37.824,
+          "end_s": 38.304,
+          "spoken_end_s": 38.064
+        },
+        {
+          "text": "เคมี",
+          "start_s": 38.304,
+          "end_s": 38.624,
+          "spoken_end_s": 38.624
+        }
+      ],
+      "highlights": [
+        {
+          "text": "พฤกษเคมี",
+          "type": "keyword"
+        }
+      ],
+      "end_s": 38.924
+    },
+    {
+      "start_s": 39.284,
+      "speech_end_s": 41.105,
+      "text": "ที่มีคุณสมบัติในการต่อต้าน",
+      "lines": [
+        "ที่มีคุณสมบัติในการต่อต้าน"
+      ],
+      "align_score": 0.98,
+      "words": [
+        {
+          "text": "ที่",
+          "start_s": 39.324,
+          "end_s": 39.604,
+          "spoken_end_s": 39.424
+        },
+        {
+          "text": "มี",
+          "start_s": 39.604,
+          "end_s": 39.785,
+          "spoken_end_s": 39.644
+        },
+        {
+          "text": "คุณสมบัติ",
+          "start_s": 39.785,
+          "end_s": 40.405,
+          "spoken_end_s": 40.345
+        },
+        {
+          "text": "ในการ",
+          "start_s": 40.405,
+          "end_s": 40.765,
+          "spoken_end_s": 40.645
+        },
+        {
+          "text": "ต่อต้าน",
+          "start_s": 40.765,
+          "end_s": 41.105,
+          "spoken_end_s": 41.105
+        }
+      ],
+      "highlights": [],
+      "end_s": 41.165
+    },
+    {
+      "start_s": 41.165,
+      "speech_end_s": 42.105,
+      "text": "สารอนุมูลอิสระ",
+      "lines": [
+        "สารอนุมูลอิสระ"
+      ],
+      "align_score": 0.871,
+      "words": [
+        {
+          "text": "สาร",
+          "start_s": 41.205,
+          "end_s": 41.425,
+          "spoken_end_s": 41.325
+        },
+        {
+          "text": "อนุมูล",
+          "start_s": 41.425,
+          "end_s": 41.785,
+          "spoken_end_s": 41.685
+        },
+        {
+          "text": "อิสระ",
+          "start_s": 41.785,
+          "end_s": 42.105,
+          "spoken_end_s": 42.105
+        }
+      ],
+      "highlights": [
+        {
+          "text": "อนุมูลอิสระ",
+          "type": "keyword"
+        }
+      ],
+      "end_s": 42.245
+    },
+    {
+      "start_s": 42.245,
+      "speech_end_s": 42.705,
+      "text": "เห็นไหมคะ",
+      "lines": [
+        "เห็นไหมคะ"
+      ],
+      "align_score": 0.812,
+      "words": [
+        {
+          "text": "เห็น",
+          "start_s": 42.285,
+          "end_s": 42.465,
+          "spoken_end_s": 42.405
+        },
+        {
+          "text": "ไหมคะ",
+          "start_s": 42.465,
+          "end_s": 42.705,
+          "spoken_end_s": 42.705
+        }
+      ],
+      "highlights": [],
+      "end_s": 42.885
+    },
+    {
+      "start_s": 42.885,
+      "speech_end_s": 43.745,
+      "text": "การดูแลตัวเอง",
+      "lines": [
+        "การดูแลตัวเอง"
+      ],
+      "align_score": 0.973,
+      "words": [
+        {
+          "text": "การ",
+          "start_s": 42.925,
+          "end_s": 43.165,
+          "spoken_end_s": 43.065
+        },
+        {
+          "text": "ดูแลตัวเอง",
+          "start_s": 43.165,
+          "end_s": 43.745,
+          "spoken_end_s": 43.745
+        }
+      ],
+      "highlights": [],
+      "end_s": 44.045
+    },
+    {
+      "start_s": 44.105,
+      "speech_end_s": 45.265,
+      "text": "ไม่ใช่แค่เลือกสิ่งที่",
+      "lines": [
+        "ไม่ใช่แค่เลือกสิ่งที่"
+      ],
+      "align_score": 0.969,
+      "words": [
+        {
+          "text": "ไม่",
+          "start_s": 44.145,
+          "end_s": 44.325,
+          "spoken_end_s": 44.225
+        },
+        {
+          "text": "ใช่",
+          "start_s": 44.325,
+          "end_s": 44.565,
+          "spoken_end_s": 44.405
+        },
+        {
+          "text": "แค่",
+          "start_s": 44.565,
+          "end_s": 44.745,
+          "spoken_end_s": 44.645
+        },
+        {
+          "text": "เลือก",
+          "start_s": 44.745,
+          "end_s": 44.985,
+          "spoken_end_s": 44.905
+        },
+        {
+          "text": "สิ่งที่",
+          "start_s": 44.985,
+          "end_s": 45.265,
+          "spoken_end_s": 45.265
+        }
+      ],
+      "highlights": [],
+      "end_s": 45.285
+    },
+    {
+      "start_s": 45.285,
+      "speech_end_s": 45.945,
+      "text": "เขาบอกว่าดี",
+      "lines": [
+        "เขาบอกว่าดี"
+      ],
+      "align_score": 0.842,
+      "words": [
+        {
+          "text": "เขา",
+          "start_s": 45.325,
+          "end_s": 45.545,
+          "spoken_end_s": 45.425
+        },
+        {
+          "text": "บอกว่าดี",
+          "start_s": 45.545,
+          "end_s": 45.945,
+          "spoken_end_s": 45.945
+        }
+      ],
+      "highlights": [
+        {
+          "text": "บอกว่าดี",
+          "type": "keyword"
+        }
+      ],
+      "end_s": 46.245
+    },
+    {
+      "start_s": 46.385,
+      "speech_end_s": 47.505,
+      "text": "แต่เราต้องรู้ด้วยว่า",
+      "lines": [
+        "แต่เราต้องรู้ด้วยว่า"
+      ],
+      "align_score": 0.943,
+      "words": [
+        {
+          "text": "แต่",
+          "start_s": 46.425,
+          "end_s": 46.625,
+          "spoken_end_s": 46.525
+        },
+        {
+          "text": "เรา",
+          "start_s": 46.625,
+          "end_s": 46.845,
+          "spoken_end_s": 46.725
+        },
+        {
+          "text": "ต้อง",
+          "start_s": 46.845,
+          "end_s": 47.025,
+          "spoken_end_s": 46.985
+        },
+        {
+          "text": "รู้",
+          "start_s": 47.025,
+          "end_s": 47.225,
+          "spoken_end_s": 47.105
+        },
+        {
+          "text": "ด้วยว่า",
+          "start_s": 47.225,
+          "end_s": 47.505,
+          "spoken_end_s": 47.505
+        }
+      ],
+      "highlights": [],
+      "end_s": 47.625
+    },
+    {
+      "start_s": 47.625,
+      "speech_end_s": 49.126,
+      "text": "แต่ละตัวทำงานอะไรบ้าง",
+      "lines": [
+        "แต่ละตัวทำงานอะไรบ้าง"
+      ],
+      "align_score": 0.995,
+      "words": [
+        {
+          "text": "แต่ละ",
+          "start_s": 47.665,
+          "end_s": 47.985,
+          "spoken_end_s": 47.865
+        },
+        {
+          "text": "ตัว",
+          "start_s": 47.985,
+          "end_s": 48.325,
+          "spoken_end_s": 48.085
+        },
+        {
+          "text": "ทำงาน",
+          "start_s": 48.325,
+          "end_s": 48.706,
+          "spoken_end_s": 48.606
+        },
+        {
+          "text": "อะไร",
+          "start_s": 48.706,
+          "end_s": 48.966,
+          "spoken_end_s": 48.826
+        },
+        {
+          "text": "บ้าง",
+          "start_s": 48.966,
+          "end_s": 49.126,
+          "spoken_end_s": 49.126
+        }
+      ],
+      "highlights": [
+        {
+          "text": "ทำงาน",
+          "type": "keyword"
+        }
+      ],
+      "end_s": 49.426
+    },
+    {
+      "start_s": 49.466,
+      "speech_end_s": 50.686,
+      "text": "เพราะสุขภาพที่ดีค่ะ",
+      "lines": [
+        "เพราะสุขภาพที่ดีค่ะ"
+      ],
+      "align_score": 0.979,
+      "words": [
+        {
+          "text": "เพราะ",
+          "start_s": 49.506,
+          "end_s": 49.746,
+          "spoken_end_s": 49.646
+        },
+        {
+          "text": "สุขภาพ",
+          "start_s": 49.746,
+          "end_s": 50.166,
+          "spoken_end_s": 50.106
+        },
+        {
+          "text": "ที่",
+          "start_s": 50.166,
+          "end_s": 50.346,
+          "spoken_end_s": 50.246
+        },
+        {
+          "text": "ดีค่ะ",
+          "start_s": 50.346,
+          "end_s": 50.686,
+          "spoken_end_s": 50.686
+        }
+      ],
+      "highlights": [],
+      "end_s": 50.986
+    },
+    {
+      "start_s": 51.106,
+      "speech_end_s": 52.266,
+      "text": "ไม่ใช่แค่ดูแลตัวเอง",
+      "lines": [
+        "ไม่ใช่แค่ดูแลตัวเอง"
+      ],
+      "align_score": 0.987,
+      "words": [
+        {
+          "text": "ไม่",
+          "start_s": 51.146,
+          "end_s": 51.346,
+          "spoken_end_s": 51.226
+        },
+        {
+          "text": "ใช่",
+          "start_s": 51.346,
+          "end_s": 51.566,
+          "spoken_end_s": 51.426
+        },
+        {
+          "text": "แค่",
+          "start_s": 51.566,
+          "end_s": 51.766,
+          "spoken_end_s": 51.646
+        },
+        {
+          "text": "ดูแลตัวเอง",
+          "start_s": 51.766,
+          "end_s": 52.266,
+          "spoken_end_s": 52.266
+        }
+      ],
+      "highlights": [],
+      "end_s": 52.326
+    },
+    {
+      "start_s": 52.326,
+      "speech_end_s": 53.226,
+      "text": "จากภายนอกนะคะ",
+      "lines": [
+        "จากภายนอกนะคะ"
+      ],
+      "align_score": 0.96,
+      "words": [
+        {
+          "text": "จาก",
+          "start_s": 52.366,
+          "end_s": 52.586,
+          "spoken_end_s": 52.466
+        },
+        {
+          "text": "ภายนอก",
+          "start_s": 52.586,
+          "end_s": 53.006,
+          "spoken_end_s": 52.926
+        },
+        {
+          "text": "นะคะ",
+          "start_s": 53.006,
+          "end_s": 53.226,
+          "spoken_end_s": 53.226
+        }
+      ],
+      "highlights": [
+        {
+          "text": "ภายนอก",
+          "type": "keyword"
+        }
+      ],
+      "end_s": 53.526
+    },
+    {
+      "start_s": 53.526,
+      "speech_end_s": 54.666,
+      "text": "แต่เราต้องดูแลตัวเอง",
+      "lines": [
+        "แต่เราต้องดูแลตัวเอง"
+      ],
+      "align_score": 0.995,
+      "words": [
+        {
+          "text": "แต่",
+          "start_s": 53.566,
+          "end_s": 53.746,
+          "spoken_end_s": 53.646
+        },
+        {
+          "text": "เรา",
+          "start_s": 53.746,
+          "end_s": 53.966,
+          "spoken_end_s": 53.846
+        },
+        {
+          "text": "ต้อง",
+          "start_s": 53.966,
+          "end_s": 54.166,
+          "spoken_end_s": 54.086
+        },
+        {
+          "text": "ดูแลตัวเอง",
+          "start_s": 54.166,
+          "end_s": 54.666,
+          "spoken_end_s": 54.666
+        }
+      ],
+      "highlights": [],
+      "end_s": 54.746
+    },
+    {
+      "start_s": 54.746,
+      "speech_end_s": 55.786,
+      "text": "จากภายในด้วยค่ะ",
+      "lines": [
+        "จากภายในด้วยค่ะ"
+      ],
+      "align_score": 0.973,
+      "words": [
+        {
+          "text": "จาก",
+          "start_s": 54.786,
+          "end_s": 55.006,
+          "spoken_end_s": 54.886
+        },
+        {
+          "text": "ภายใน",
+          "start_s": 55.006,
+          "end_s": 55.426,
+          "spoken_end_s": 55.266
+        },
+        {
+          "text": "ด้วยค่ะ",
+          "start_s": 55.426,
+          "end_s": 55.786,
+          "spoken_end_s": 55.786
+        }
+      ],
+      "highlights": [
+        {
+          "text": "ภายใน",
+          "type": "keyword"
+        }
+      ],
+      "end_s": 56.086
+    },
+    {
+      "start_s": 56.246,
+      "speech_end_s": 57.326,
+      "text": "เซฟคลิปนี้ไว้นะคะ",
+      "lines": [
+        "เซฟคลิปนี้ไว้นะคะ"
+      ],
+      "align_score": 0.638,
+      "words": [
+        {
+          "text": "เซฟ",
+          "start_s": 56.286,
+          "end_s": 56.526,
+          "spoken_end_s": 56.426
+        },
+        {
+          "text": "คลิป",
+          "start_s": 56.526,
+          "end_s": 56.726,
+          "spoken_end_s": 56.626
+        },
+        {
+          "text": "นี้ไว้",
+          "start_s": 56.726,
+          "end_s": 57.126,
+          "spoken_end_s": 56.966
+        },
+        {
+          "text": "นะคะ",
+          "start_s": 57.126,
+          "end_s": 57.326,
+          "spoken_end_s": 57.326
+        }
+      ],
+      "highlights": [
+        {
+          "text": "เซฟ",
+          "type": "keyword"
+        }
+      ],
+      "end_s": 57.447
+    },
+    {
+      "start_s": 57.447,
+      "speech_end_s": 58.727,
+      "text": "แล้วเรามาดูแลตัวเองกันค่ะ",
+      "lines": [
+        "แล้วเรามาดูแลตัวเองกันค่ะ"
+      ],
+      "align_score": 0.918,
+      "words": [
+        {
+          "text": "แล้ว",
+          "start_s": 57.487,
+          "end_s": 57.667,
+          "spoken_end_s": 57.627
+        },
+        {
+          "text": "เรามา",
+          "start_s": 57.667,
+          "end_s": 57.947,
+          "spoken_end_s": 57.867
+        },
+        {
+          "text": "ดูแลตัวเอง",
+          "start_s": 57.947,
+          "end_s": 58.467,
+          "spoken_end_s": 58.387
+        },
+        {
+          "text": "กันค่ะ",
+          "start_s": 58.467,
+          "end_s": 58.727,
+          "spoken_end_s": 58.727
+        }
+      ],
+      "highlights": [],
+      "end_s": 59.027
+    }
+  ]
+}

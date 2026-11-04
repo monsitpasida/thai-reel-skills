@@ -1,0 +1,215 @@
+{
+  "whoosh": "demo/whoosh.wav",
+  "pop": "sfx/pop.mp3",
+  "inserts": [
+    {
+      "type": "contextual-split-insert",
+      "start": 2.06,
+      "end": 4.6,
+      "visual": "pexels/skincare-9474154.mp4",
+      "visualStart": 2.0,
+      "layout": "top-broll-bottom-speaker",
+      "topRatio": 0.58,
+      "bottomRatio": 0.42,
+      "seamStyle": "soft-blur-feather",
+      "focus": {
+        "x": 0.5,
+        "y": 0.36
+      },
+      "reason": "context",
+      "spokenContext": "เป็นพันๆ เพื่อดูแลผิวที่เรามองไม่เห็น",
+      "sfx": "auto"
+    },
+    {
+      "type": "contextual-split-insert",
+      "start": 5.95,
+      "end": 8.6,
+      "visual": "anim/bone-explainers-2d-3d.webm",
+      "visualStart": 3.89,
+      "layout": "top-broll-bottom-speaker",
+      "topRatio": 0.58,
+      "bottomRatio": 0.42,
+      "seamStyle": "soft-blur-feather",
+      "focus": {
+        "x": 0.5,
+        "y": 0.37
+      },
+      "reason": "explain",
+      "spokenContext": "กระดูกที่เรามองไม่เห็น ก็ต้องการการดูแลเหมือนกัน (2D: ผิว → เผยกระดูกข้างใน)",
+      "sfx": "auto"
+    },
+    {
+      "type": "contextual-split-insert",
+      "start": 10.92,
+      "end": 15.0,
+      "visual": "anim/bone-explainers-2d-3d.webm",
+      "visualStart": 6.63,
+      "layout": "top-broll-bottom-speaker",
+      "topRatio": 0.58,
+      "bottomRatio": 0.42,
+      "seamStyle": "soft-blur-feather",
+      "focus": {
+        "x": 0.5,
+        "y": 0.37
+      },
+      "reason": "explain",
+      "spokenContext": "การดูแลกระดูก ไม่ใช่แค่เรื่องแคลเซียม ... ต้องการสารอาหารหลายตัว (2D: Ca Mg D K รอบกระดูก)",
+      "sfx": "auto"
+    },
+    {
+      "type": "contextual-split-insert",
+      "start": 16.2,
+      "end": 21.0,
+      "visual": "pexels/sunlight-15365455.mp4",
+      "visualStart": 8.0,
+      "layout": "top-broll-bottom-speaker",
+      "topRatio": 0.58,
+      "bottomRatio": 0.42,
+      "seamStyle": "soft-blur-feather",
+      "focus": {
+        "x": 0.5,
+        "y": 0.45
+      },
+      "cuts": [
+        {
+          "at": 17.95,
+          "visual": "anim/bone-explainers-2d-3d.webm",
+          "visualStart": 11.97,
+          "focus": {
+            "x": 0.5,
+            "y": 0.43
+          }
+        }
+      ],
+      "reason": "visualize",
+      "spokenContext": "อย่างวิตามินดี (แสงแดด) / ก็ช่วยในการดูดซึมแคลเซียม ส่วนวิตามินเค (2D: D ดูดซึม Ca, K โปรตีนในกระดูก)",
+      "sfx": "auto"
+    },
+    {
+      "type": "contextual-split-insert",
+      "start": 24.0,
+      "end": 26.4,
+      "visual": "pexels/capsules-31555271.jpg",
+      "layout": "top-broll-bottom-speaker",
+      "topRatio": 0.58,
+      "bottomRatio": 0.42,
+      "seamStyle": "soft-blur-feather",
+      "focus": {
+        "x": 0.5,
+        "y": 0.6
+      },
+      "reason": "visualize",
+      "spokenContext": "ถ้าเป็นแคลเซียม แมกนีเซียม และวิตามินดี",
+      "sfx": "none"
+    },
+    {
+      "type": "contextual-split-insert",
+      "start": 27.6,
+      "end": 31.0,
+      "visual": "anim/bone-explainers-2d-3d.webm",
+      "visualStart": 18.57,
+      "layout": "top-broll-bottom-speaker",
+      "topRatio": 0.58,
+      "bottomRatio": 0.42,
+      "seamStyle": "soft-blur-feather",
+      "focus": {
+        "x": 0.5,
+        "y": 0.36
+      },
+      "reason": "explain",
+      "spokenContext": "ที่ช่วยเติมสารอาหาร ให้กับกระดูก และการทำงานของกล้ามเนื้อ (2D: กระดูก + กล้ามเนื้อ)",
+      "sfx": "auto"
+    },
+    {
+      "type": "contextual-split-insert",
+      "start": 32.3,
+      "end": 35.1,
+      "visual": "pexels/pomegranate-8803789.mp4",
+      "visualStart": 4.5,
+      "layout": "top-broll-bottom-speaker",
+      "topRatio": 0.58,
+      "bottomRatio": 0.42,
+      "seamStyle": "soft-blur-feather",
+      "focus": {
+        "x": 0.5,
+        "y": 0.8
+      },
+      "cuts": [
+        {
+          "at": 33.88,
+          "visual": "pexels/grapes-7213754.mp4",
+          "visualStart": 2.0,
+          "focus": {
+            "x": 0.5,
+            "y": 0.55
+          }
+        }
+      ],
+      "reason": "visualize",
+      "spokenContext": "ส่วนสารสกัดจากทับทิม แล้วก็เมล็ดองุ่น",
+      "sfx": "auto"
+    },
+    {
+      "type": "contextual-split-insert",
+      "start": 36.94,
+      "end": 40.94,
+      "visual": "anim/bone-explainers-2d-3d.webm",
+      "visualStart": 23.24,
+      "layout": "top-broll-bottom-speaker",
+      "topRatio": 0.58,
+      "bottomRatio": 0.42,
+      "seamStyle": "soft-blur-feather",
+      "focus": {
+        "x": 0.5,
+        "y": 0.38
+      },
+      "reason": "explain",
+      "spokenContext": "ก็จะเน้นไปทางพฤกษเคมี ที่มีคุณสมบัติในการต่อต้าน (2D: โล่พฤกษเคมีกันอนุมูลอิสระ)",
+      "sfx": "auto"
+    },
+    {
+      "type": "contextual-split-insert",
+      "start": 51.11,
+      "end": 55.95,
+      "visual": "anim/bone-explainers-2d-3d.webm",
+      "visualStart": 28.5,
+      "layout": "top-broll-bottom-speaker",
+      "topRatio": 0.58,
+      "bottomRatio": 0.42,
+      "seamStyle": "soft-blur-feather",
+      "focus": {
+        "x": 0.5,
+        "y": 0.38
+      },
+      "reason": "explain",
+      "spokenContext": "ไม่ใช่แค่ดูแลตัวเองจากภายนอกนะคะ แต่เราต้องดูแลตัวเองจากภายในด้วยค่ะ (3D: เปลือกแยกออก เผยกระดูกข้างใน)",
+      "sfx": "auto"
+    }
+  ],
+  "products": [
+    {
+      "start": 16.5,
+      "end": 17.9,
+      "image": "products/nutrilite-vitamin-d3-k2.png",
+      "side": "right",
+      "spokenContext": "อย่างวิตามินดี",
+      "source": "https://amway.co.th/product/nutrilite-vitamin-d3-k2/341899TH"
+    },
+    {
+      "start": 24.44,
+      "end": 26.1,
+      "image": "products/nutrilite-cal-mag-d.png",
+      "side": "right",
+      "spokenContext": "แคลเซียม แมกนีเซียม และวิตามินดี",
+      "source": "https://amway.co.th/product/nutrilite-cal-mag-d/117147TH"
+    },
+    {
+      "start": 32.75,
+      "end": 34.8,
+      "image": "products/nutrilite-ostkeeper.png",
+      "side": "left",
+      "spokenContext": "สารสกัดจากทับทิม แล้วก็เมล็ดองุ่น",
+      "source": "https://amway.co.th/product/nutrilite-ostkeeper/119883TH"
+    }
+  ]
+}
