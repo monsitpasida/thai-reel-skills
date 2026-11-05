@@ -11,7 +11,7 @@
 ## ติดตั้ง
 
 ```bash
-git clone https://github.com/Chayootpong1/thai-reel-skills.git ~/thai-reel-skills && ~/thai-reel-skills/install.sh
+git clone https://github.com/monsitpasida/thai-reel-skills.git ~/thai-reel-skills && ~/thai-reel-skills/install.sh
 ```
 
 สคริปต์ติดตั้งจะทำสิ่งต่อไปนี้:
